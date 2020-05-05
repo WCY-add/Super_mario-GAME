@@ -25,7 +25,7 @@ class Level:
     def setup_player(self):
         self.player = player.Player('mario')
         self.player.rect.x = 300
-        self.player.rect.y = 300
+        self.player.rect.y = 490
 
     def update(self,surface,keys):
         self.player.update(keys)
